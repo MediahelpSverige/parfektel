@@ -20,10 +20,10 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'tmsab');
+define('DB_NAME', 'parfekt');
 
 /** MySQL database username */
-define('DB_USER', '23d58ef6f0cc');
+define('DB_USER', '1ddc0c9f0b60');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'steel1992');
@@ -36,6 +36,10 @@ define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+
+define('WP_HOME', 'http://parfektel.mediahelpcrm.se/');
+define('WP_SITEURL', 'http://parfektel.mediahelpcrm.se/');
 
 /**#@+
  * Authentication Unique Keys and Salts.
